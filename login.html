@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Elite Club — Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="background-symbols"></div>
+
+  <div class="page">
+    <header class="header">
+      <div class="brand">Elite Club</div>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="login.html" class="active">Login</a>
+        <a href="register.html">Register</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <div class="auth-wrap" style="justify-content:center;">
+        <div class="auth-card">
+          <div class="auth-title">Login</div>
+          <form id="loginForm" novalidate>
+            <input class="input" type="email" name="email" placeholder="Email" required />
+            <input class="input" type="password" name="password" placeholder="Password" minlength="6" required />
+            <button class="btn" type="submit"><span>Login</span></button>
+            <a class="small-link" href="register.html">Register</a>
+          </form>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
